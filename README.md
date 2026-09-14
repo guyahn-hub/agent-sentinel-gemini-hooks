@@ -222,4 +222,4 @@ The goal is not to pretend that the first implementation is perfect. The goal is
 
 ## License
 
-License and contribution policy are not finalized yet.
+MIT License.
