@@ -1,0 +1,28 @@
+{
+  "security-gate": {
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python C:\\Users\\ahs01\\.gemini\\config\\hooks-scripts\\security_gate.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python C:\\Users\\ahs01\\.gemini\\config\\hooks-scripts\\protocol_manager.py",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}
