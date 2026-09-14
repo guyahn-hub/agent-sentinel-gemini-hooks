@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Runtime logs
+*.log
+
+# Gemini / agent transcripts
+transcript*.jsonl
+
+# Local secrets and environment files
+.env
+.env.*
